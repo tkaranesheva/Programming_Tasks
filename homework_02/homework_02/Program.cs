@@ -31,11 +31,16 @@ namespace homework_02
             // S=?
             Console.WriteLine(a * b);
 
-            //Task 4 po-pravilno li e s %?
-            decimal z = 22;
-            decimal w = 7;
+            //Task 4 - izvejda s desetichna zapetaya
+            int z = 22;
+            int w = 7;
+            decimal result = (decimal)z/w; 
             Console.WriteLine(z);
-            Console.WriteLine (z/w);
+            Console.WriteLine (result);
+            //izvejda ostatuk 1
+            int z1 = 22;
+            int w2 = 7;
+            Console.WriteLine(z1 % w2);
 
             //Task  5 - two strings and concatinate
             string str3 = "Hello";
