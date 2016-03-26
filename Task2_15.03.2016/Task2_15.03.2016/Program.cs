@@ -8,20 +8,26 @@ namespace Task2_15._03._2016
 {
     class Program
     {
+        private static int i;
+
         static void Main(string[] args)
         {
             {
-                int n = int.Parse(Console.ReadLine());
-                long firstAddend = 0;
-                long secondAddend = 1;
-                long sum = 0;
-                Console.Write("0, 1, ");
-                for (int i = 1; i <= n; i++)
+                uint n= uint.Parse(Console.ReadLine());
+
+                int[] array = new int[n];
+                array[0] = 0;
+                array[1] = 1;
+                for (i = 2; i < array.Length; i++)
                 {
-                    sum = firstAddend + secondAddend;
-                    firstAddend = secondAddend;
-                    secondAddend = sum;
-                    Console.Write(sum + ", ");
+                    array[i] = array[i - 1] + array[i - 2];
+                }
+                {
+                    Console.WriteLine("Select the lenght of the array:");
+                }
+                for (i = 0; i< array.Length; i++)
+                     { 
+                    Console.Write(array[i]);
                 }
             }
         }

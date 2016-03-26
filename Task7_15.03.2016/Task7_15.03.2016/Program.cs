@@ -14,10 +14,12 @@ namespace Task7_15._03._2016
             int[] arr1 = new int[] { 2, 3, 0, 3, 2 };
             for (int i = 0; i < arr1.Length; i++)
             {
-                bool isSymetric = true;
+                if (arr1[0] == arr1[4] && arr1[1] == arr1[3])
 
-                Console.WriteLine("The array is symetric: " + isSymetric);
+                {
+                    Console.Write("The array is symetric");
+                }
             }
-        }
+         }
     }
 }

@@ -10,7 +10,6 @@ namespace Task3_15._03._2016
     {
         static void Main(string[] args)
         {
-            int sum = 0;
             int[] teddy = new int[10];
             for (int i = 0; i <10; i++)
                 teddy[i] = i;
