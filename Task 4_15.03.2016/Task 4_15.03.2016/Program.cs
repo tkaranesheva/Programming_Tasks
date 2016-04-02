@@ -24,5 +24,11 @@ namespace Task_4_15._03._2016
        
         }
 
+  \\int[]array = new int[] { 2, 3, 5, 8, 9, 10,7,8,9,10 };
+    \\        foreach (int i in array)
+      \\      {
+        \\        Console.WriteLine("{0}", i, array[i]);
+          \\      break;
+
 
 
